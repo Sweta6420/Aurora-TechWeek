@@ -13,6 +13,15 @@
     position: relative;
 }
 
+.header-events{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(90deg,rgba(0,0,0,0.5),rgba(0,0,0, 0.8)), url(images/background-events.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
 nav{   
     display: flex;
     padding: 2% 6%;
@@ -109,4 +118,28 @@ nav ul li{
     position: relative;
     cursor: pointer;
     transition: 0.2s;
+}
+
+@media(max-width: 700px)
+{
+    .text-box h1{
+        font-size: 20px;
+    } 
+
+    .nav-links ul li{
+        display: block;
+    }
+
+    .nav-links{
+        position: absolute;
+        background: black;
+        opacity: 0.5;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+
+    }
 }
