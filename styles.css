@@ -18,14 +18,14 @@ h2{
 }
 
 p{
-  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255,1);
   padding: 0.5rem;
   text-align: center;
 }
 
 .dark {
   background-color: black;
-  color: white;
+  color: rgb(255, 255, 255,1);
 }
 
 /* home */
@@ -138,71 +138,43 @@ nav ul li {
 }
 
 /* about */
+#time-line.dark{
+  background-color: rgba(0, 0, 0, 0.78);
+}
+
 .container-fluid {
   text-align: justify;
   padding: 7rem 8rem;
 }
 
 #circle-1,
-#circle-3,
 #circle-4,
-#circle-5,
-#circle-6,
-#circle-8
+#circle-6
 {
   min-width: 600px;
   height: 600px;
   mix-blend-mode: multiply;
   filter: blur(30px);
+  border-color: white;
 }
 
 #circle-1 {
-  background-color: rgb(0, 225, 225, 0.7);
-  left: -5rem;
-  top: 75rem;
+  background-color: rgb(0, 225, 225, 0.8);
+  left: 0rem;
+  top: 115rem;
 }
-
-#circle-3 {
-  background-color: rgb(0, 225, 225, 0.7);
-  left: 26rem;
-  top: 98rem;
-}
-
 #circle-4 {
-  background-color: rgb(241, 239, 90, 0.7);
-  left: 20rem;
-  top: 75rem;
-}
-
-#circle-5 {
-  height: 700px;
-  background-color: rgb(190, 255, 149, 0.7);
-  right: -5rem;
-  top: 73rem;
+  background-color: rgb(241, 239, 90, 0.8);
+  left: 15rem;
+  top: 93rem;
 }
 
 #circle-6 {
   min-width: 700px;
   height: 700px;
-  background-color: rgb(17, 255, 176, 0.7);
-  right: -5rem;
-  top: 101rem;
-}
-
-#circle-7 {
-  min-width: 800px;
-  height: 800px;
-  mix-blend-mode: multiply;
-  filter: blur(30px);
-  background-color: rgb(241, 239, 90, 0.7);
-  left: -10rem;
-  top: 100rem;
-}
-
-#circle-8 {
-  background-color: rgb(0, 225, 225, 0.7);
-  left: 17rem;
-  top: 110rem;
+  background-color: rgb(17, 255, 176, 0.8);
+  right: -1rem;
+  top: 108rem;
 }
 
 .scale-up-center {
@@ -320,7 +292,7 @@ nav ul li {
 
 .content {
   padding: 20px 30px;
-  background-color: rgb(0, 0, 0, 0.7);
+  background-color: rgb(0, 0, 0,0.9);
   position: relative;
   border-radius: 6px;
 }
