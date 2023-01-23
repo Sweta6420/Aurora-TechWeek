@@ -429,7 +429,7 @@ nav ul li {
 }
 .content-1 {
 	padding: 20px 30px;
-	background-color: rgba(37, 35, 35, 0.9);
+	background-color: black;
 	position: relative;
 	border-radius: 6px;
 }
@@ -504,16 +504,20 @@ nav ul li {
 }
 
 .btn {
-	background-color: white;
-	padding: 1em 1.5em;
-	border-radius: 0.5rem;
+	/* background-color: white; */
+  border: 1px solid white;
+	padding: 0.75em 1.25em;
+	border-radius: 1rem;
 	text-decoration: none;
+  color: white;
 }
 .btn:hover {
 	background-color: white;
 	padding: 1em 1.5em;
-	border-radius: 0.5rem;
+  color:rgb(0, 0, 0);
+	border-radius: 2rem;
 	text-decoration: none;
+  transition: ease-in-out;
 }
 body {
 	background: rgb(0, 51, 28);
