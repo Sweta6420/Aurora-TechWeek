@@ -45,6 +45,8 @@ p {
 			rgba(0, 0, 0, 0.75)
 		),
 		url(images/background.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	position: relative;
@@ -223,8 +225,19 @@ nav ul li {
 
 .timeline {
 	position: relative;
-	max-width: 1200px;
+	/* max-width: 1200px; */
 	margin: 0 auto;
+  background-image: linear-gradient(
+			45deg,
+			rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 0.75)
+		),
+		url(images/background-events.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
 }
 
 .timeline::after {
@@ -346,16 +359,21 @@ nav ul li {
 	text-align: center;
 }
 
+.footer-link
+{
+  text-decoration: none;
+}
 .footer-icon {
-	height: 2rem;
-	width: 2rem;
+	height: 3rem;
+	width: 3rem;
 	fill: rgb(255, 255, 255);
 	margin: 0.5rem;
+  padding: 0.3rem;
 }
 
 .footer-icon:hover {
 	fill: #39ff96;
-	padding: 0.3rem;
+  
 }
 
 /* Events */
@@ -411,7 +429,7 @@ nav ul li {
 }
 .content-1 {
 	padding: 20px 30px;
-	background-color: rgba(37, 35, 35, 0.7);
+	background-color: rgba(37, 35, 35, 0.9);
 	position: relative;
 	border-radius: 6px;
 }
