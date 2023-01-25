@@ -2,7 +2,6 @@
 * {
 	margin: 0;
 	padding: 0;
-	overflow-x: hidden;
 }
 
 h1 {
@@ -139,6 +138,27 @@ nav ul li {
 	position: relative;
 	cursor: pointer;
 	transition: 0.2s;
+}
+
+@media (max-width:800px){
+	.nav-links{
+		font-size: 10px;
+	}
+}
+
+@media (max-width:700px){
+	.text-box h1 {
+		font-size: 75px !important;
+	}
+	.nav-links{
+		visibility: hidden;
+	}
+	.dropdown{
+		visibility: visible !important;
+	}
+	nav{
+		padding-top: 0% !important;
+	}
 }
 
 /* about */
