@@ -31,7 +31,7 @@ p {
 	font-weight: 600;
 	color: #fff;
 	font-size: 4rem;
-	filter: drop-shadow(0 0 0.8rem #99ffe6);
+	filter: drop-shadow(0 0 0.8rem #34a186);
 }
 
 /* home */
@@ -387,6 +387,7 @@ nav ul li {
 	background-color: black;
 	position: relative;
 	border-radius: 6px;
+	filter: drop-shadow(0 0 1.5rem rgba(44, 216, 87, 0.5));
 }
 
 .text-box-1 {
