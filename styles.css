@@ -180,8 +180,8 @@ nav ul li {
 }
 
 .scale-up-center {
-	/* animation: scale-up-center 7s cubic-bezier(0.39, 0.575, 0.565, 1) infinite */
-		/* both; */
+	animation: scale-up-center 7s cubic-bezier(0.39, 0.575, 0.565, 1) infinite
+		both;
 }
 
 @keyframes scale-up-center {
@@ -352,6 +352,7 @@ nav ul li {
 	position: absolute;
 	width: 6px;
 	/* background-color: rgb(154, 146, 146); */
+	background-color: rgb(74, 153, 117);
 	top: 0;
 	bottom: 0;
 	left: 50%;
