@@ -60,6 +60,8 @@ nav {
 
 .logo-image {
 	color: white;
+	
+	
 }
 
 .nav-links {
@@ -178,8 +180,8 @@ nav ul li {
 }
 
 .scale-up-center {
-	animation: scale-up-center 7s cubic-bezier(0.39, 0.575, 0.565, 1) infinite
-		both;
+	/* animation: scale-up-center 7s cubic-bezier(0.39, 0.575, 0.565, 1) infinite */
+		/* both; */
 }
 
 @keyframes scale-up-center {
