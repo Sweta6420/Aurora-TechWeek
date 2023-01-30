@@ -390,7 +390,7 @@ nav ul li {
 	background-color: black;
 	position: relative;
 	border-radius: 6px;
-	filter: drop-shadow(0 0 1.5rem rgba(44, 216, 87, 0.5));
+	/* filter: drop-shadow(0 0 1.5rem rgba(44, 216, 87, 0.5)); */
 }
 
 .text-box-1 {
