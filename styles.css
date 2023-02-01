@@ -167,6 +167,16 @@ nav ul li {
 	.about-container{
 		padding:5% !important;
 	}
+	.heading{
+		font-size: 3.5rem;
+	}
+	.dropdown-menu.show {
+		display: block;
+		background-color: rgba(0,0,0,0.8);
+	}
+	.dropdown-item{
+		color: white;
+	}
 }
 
 /* about */
@@ -457,7 +467,7 @@ nav ul li {
 }
 .modal-window {
 	position: fixed;
-	background-color: rgba(255, 255, 255, 0.25);
+	background-color: rgba(27, 25, 25, 0.8);
 	top: 0;
 	right: 0;
 	bottom: 0;
@@ -467,6 +477,8 @@ nav ul li {
 	opacity: 0;
 	pointer-events: none;
 	transition: all 0.3s;
+	max-width: 100vw;
+	max-height: 100vh;
 }
 .modal-window:target {
 	visibility: visible;
@@ -492,7 +504,7 @@ nav ul li {
 }
 
 .modal-close {
-	color: #aaa;
+	color: rgb(26, 21, 21);
 	line-height: 50px;
 	font-size: 80%;
 	position: absolute;
