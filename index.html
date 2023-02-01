@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Aurora</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
@@ -21,7 +22,7 @@
     <section class="header">
       <nav class="navbar navbar-expand-lg mr-auto">
         <!-- <p class="logo-image"></p> -->
-        <img src="./images/iste-white bg logo.png" width="150" height="60" alt="ISTE-LOGO">
+        <img src="./images/iste-white bg logo.png" width="150" height="60" alt="ISTE-LOGO" class="logo-image">
         <div class="dropdown" style="visibility: hidden;">
           <button
             class="btn btn-secondary float-right"
@@ -31,7 +32,7 @@
 			style="color: rgb(255, 255, 255); background-color: black; border: 0ch;"
           ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="footer-icon"><path d="M256 0C114.6 0 0 114.6 0 256S114.6 512 256 512s256-114.6 256-256S397.4 0 256 0zM135 241c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l87 87 87-87c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9L273 345c-9.4 9.4-24.6 9.4-33.9 0L135 241z"/></svg>
           </button>
-          <ul class="dropdown-menu">
+          <ul class="dropdown-menu dropdown-menu-left show">
             <li><a class="dropdown-item" href="index.html">Home</a></li>
             <li><a class="dropdown-item" href="#about">About</a></li>
             <li><a class="dropdown-item" href="#time-line">Timeline</a></li>
@@ -53,7 +54,7 @@
                 <h1>AURORA</h1>
                 <p>Annual Tech Week of ISTE</p>
             </div> -->
-      <div class="row justify-content-center align-content-center">
+      <div class="row justify-content-center align-content-center" id="main-head">
         <div class="col">
           <div class="text-box">
             <h1>AURORA</h1>
@@ -67,7 +68,7 @@
     </section>
 
     <section id="about">
-      <div class="container-fluid">
+      <div class="container-fluid about-container">
         <div class="row justify-content-center" id="about-head">
           <div class="col">
             <h1 class="heading">About</h1>
@@ -77,7 +78,7 @@
           <div class="col-md-4"
             data-aos="fade-in"
             data-aos-duration="1000"
-            data-aos-delay="1000"
+            data-aos-delay="100"
           >
             <img
               class="about-img"
@@ -85,7 +86,7 @@
               alt=""
             />
           </div>
-          <div class="col-md-7" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1000">
+          <div class="col-md-7" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="100">
             <p class="about-text">
               <strong>Workshops:</strong>
 The temple of learning for those bold enough to be pushing their boundaries.
@@ -119,13 +120,13 @@ and test your creativity against people from all over. Work in teams (or alone) 
       </div>
       <div class="timeline w-100">
         <div class="container left">
-          <div class="content" data-aos="fade-left" data-aos-duration="800" data-aos-delay="800">
+          <div class="content" data-aos="fade-left" data-aos-duration="800" data-aos-delay="400">
             <h2>Event</h2>
             <p>Lorem ipsum</p>
           </div>
         </div>
         <div class="container right">
-          <div class="content" data-aos="fade-right" data-aos-duration="800" data-aos-delay="800">
+          <div class="content" data-aos="fade-right" data-aos-duration="800" data-aos-delay="400">
             <h2>Event</h2>
             <p>Lorem ipsum</p>
           </div>
@@ -133,13 +134,13 @@ and test your creativity against people from all over. Work in teams (or alone) 
       </div>
       <div class="timeline w-100">
         <div class="container left">
-          <div class="content" data-aos="fade-left" data-aos-duration="800" data-aos-delay="800">
+          <div class="content" data-aos="fade-left" data-aos-duration="800" data-aos-delay="400">
             <h2>Event</h2>
             <p>Lorem ipsum</p>
           </div>
         </div>
         <div class="container right">
-          <div class="content" data-aos="fade-right" data-aos-duration="800" data-aos-delay="800">
+          <div class="content" data-aos="fade-right" data-aos-duration="800" data-aos-delay="400">
             <h2>Event</h2>
             <p>Lorem ipsum</p>
           </div>
@@ -147,13 +148,13 @@ and test your creativity against people from all over. Work in teams (or alone) 
       </div>
       <div class="timeline w-100">
         <div class="container left">
-          <div class="content" data-aos="fade-left" data-aos-duration="800" data-aos-delay="800">
+          <div class="content" data-aos="fade-left" data-aos-duration="800" data-aos-delay="400">
             <h2>Event</h2>
             <p>Lorem ipsum</p>
           </div>
         </div>
         <div class="container right">
-          <div class="content" data-aos="fade-right" data-aos-duration="800" data-aos-delay="800">
+          <div class="content" data-aos="fade-right" data-aos-duration="800" data-aos-delay="400">
             <h2>Event</h2>
             <p>Lorem ipsum</p>
           </div>
@@ -161,7 +162,7 @@ and test your creativity against people from all over. Work in teams (or alone) 
       </div>
     </section>
     <section id="sponsorers">
-      <div class="container-fluid">
+      <div class="container-fluid" id="sponsor-head">
         <h1 class="heading">Sponsors</h1>
         <p>images here</p>
         <img src="" alt="" />

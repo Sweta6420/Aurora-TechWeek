@@ -55,15 +55,12 @@ nav {
 	display: flex;
 	padding: 2% 6%;
 	align-items: center;
-	backdrop-filter:blur(20px);
 	justify-content: space-between;
-	position: fixed;
+	/* position:fixed !important; */
 }
 
 .logo-image {
 	color: white;
-	
-	
 }
 
 .nav-links {
@@ -159,9 +156,16 @@ nav ul li {
 	}
 	.dropdown{
 		visibility: visible !important;
+		position: absolute;
+		right: 0;
+		background-color: transparent !important;		
 	}
 	nav{
 		padding-top: 0% !important;
+		position:relative;
+	}
+	.about-container{
+		padding:5% !important;
 	}
 }
 
@@ -269,6 +273,9 @@ nav ul li {
 	left: -16px;
 }
 
+#sponsor-head{
+	padding: 5% !important;
+}
 .content {
 	padding: 1rem 2rem;
 	background-color: rgba(19, 27, 21, 0.9);
@@ -277,7 +284,7 @@ nav ul li {
 	border-radius: 3rem;
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
 	.timeline::after {
 		left: 31px;
 	}
@@ -319,7 +326,7 @@ nav ul li {
 .footer-txt {
 	text-align: center;
 	margin-bottom: 0;
-	
+	padding: 0 5% 0 5% !important;
 }
 
 .footer-link {
@@ -363,11 +370,20 @@ nav ul li {
 	margin-left: -3px;
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
+	nav{
+		position: fixed;
+	}
 	.time-line-events::after {
 		left: 31px;
 	}
-
+	.header{
+		max-height: 100vh;
+	}
+	.text-box{	
+		padding: 40% 0 60% 0;
+		max-height: 50vh !important;
+	}
 	.container {
 		width: 100%;
 		padding-left: 3rem;
@@ -499,7 +515,7 @@ nav ul li {
 }
 
 body {
-	background-image: linear-gradient(to right, #434343 0%, black 100%);
+	background-image: linear-gradient(to right, #04402c 0%, black 100%);
 	/* font-family: "Inter", sans-serif;
 	/* font-family: "Manrope", sans-serif; */
 	font-family: "Poppins", sans-serif;
@@ -510,8 +526,11 @@ body {
 	height: 100%;
 	object-fit: cover;
 }
+#main-head{
+	margin: 0;
+}
 #about-head {
-	margin-bottom: 3rem;
+	margin: 0 0 3rem 0;
 }
 .btnn {
 	background-color: #39ff96;
