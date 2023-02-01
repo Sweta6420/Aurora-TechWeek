@@ -363,6 +363,38 @@ nav ul li {
 	margin-left: -3px;
 }
 
+@media screen and (max-width: 600px) {
+	.time-line-events::after {
+		left: 31px;
+	}
+
+	.container {
+		width: 100%;
+		padding-left: 3rem;
+		padding-right: 3rem;
+	}
+
+	.container::before {
+		left: 60px;
+		border: medium solid white;
+		border-width: 10px 10px 10px 0;
+		border-color: transparent white transparent transparent;
+	}
+
+	.left::after,
+	.right::after {
+		left: 15px;
+	}
+
+	.right {
+		left: 0%;
+	}
+
+	.left {
+		left: 0%;
+	}
+}
+
 .register-1 {
 	display: inline-block;
 	text-decoration: none;
