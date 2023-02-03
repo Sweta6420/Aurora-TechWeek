@@ -372,8 +372,6 @@ nav ul li {
 	content: "";
 	position: absolute;
 	width: 6px;
-	/* background-color: rgb(154, 146, 146); */
-	background-color: rgb(74, 153, 117);
 	top: 0;
 	bottom: 0;
 	left: 50%;
@@ -459,10 +457,10 @@ nav ul li {
 	margin-top: 50px;
 	width: 100%;
 	color: white;
-	position: relative;
+	/* position: relative;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%); */
 	text-align: center;
 }
 .modal-window {
