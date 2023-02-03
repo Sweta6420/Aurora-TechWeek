@@ -16,6 +16,12 @@ h2 {
 	text-align: center;
 }
 
+h3 {
+	color: white;
+	padding: 0.15rem;
+	text-align: center;
+}
+
 p {
 	color: rgb(255, 255, 255, 1);
 	padding: 0.5rem;
@@ -243,7 +249,7 @@ nav ul li {
 .timeline::after {
 	content: "";
 	position: absolute;
-	width: 3px;
+	width: 2px;
 	background-color: rgb(74, 153, 117);
 	top: 0;
 	bottom: 0;
@@ -255,7 +261,7 @@ nav ul li {
 	padding: 10px 40px;
 	position: relative;
 	background-color: inherit;
-	width: 40%;
+	width: 40%; 
 }
 
 .container::after {
@@ -274,6 +280,11 @@ nav ul li {
 .left {
 	left: -20%;
 }
+
+/* .left::after
+{
+	right: -16px;
+} */
 
 .right {
 	right: -20%;
@@ -536,6 +547,20 @@ body {
 	height: 100%;
 	object-fit: cover;
 }
+
+.club-img {
+	width: 40%;
+	height: 40%;
+	margin-left: 30%;
+	object-fit: cover;
+}
+
+/* .club-img-1 {
+	width: 30%;
+	height: 20%;
+	margin-left: 30%;
+	object-fit: cover;
+} */
 #main-head{
 	margin: 0;
 }
