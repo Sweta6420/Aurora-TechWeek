@@ -369,14 +369,13 @@ nav ul li {
 .header-events {
 	height: 100vh;
 	width: 100%;
-
-	background-position: center;
-	background-size: cover;
+	/* background-position: center; */
+	/* background-size: cover; */
 	position: relative;
 }
 .time-line-events {
 	position: relative;
-	max-width: 1200px;
+	max-width: 75vw;
 	margin: 0 auto;
 }
 .time-line-events::after {
@@ -430,20 +429,42 @@ nav ul li {
 	}
 }
 
-.register-1 {
+.lines{
+	display: flex;
+	gap: column;
+}
+
+.partner-card{
+	border: 10px solid transparent;
+	border-top: 1px solid #00a35a;
+	box-sizing: border-box;
+	/* background-color: rgba(0, 0, 0, 0.1); */
+	/* border-radius: 5%; */
+}
+.partner-card:hover{
+	
+	border-top: 3px solid #00a35a;
+	box-shadow: inset 0px 11px 8px -7px #00a35a;
+	/* box-sizing: border-box; */
+}
+
+.event-title{
+	margin:0;
+}
+/* .register-1 {
 	display: inline-block;
 	text-decoration: none;
 	color: white;
 	border: 1px solid white;
 	border-radius: 10px;
-	padding: 9px 30px;
+	padding: 0 30px;
 	font-size: 15px;
 	background: transparent;
 	position: relative;
 	cursor: pointer;
-}
+} */
 
-.register-1:hover {
+/* .register-1:hover {
 	display: inline-block;
 	text-decoration: none;
 	color: black;
@@ -455,7 +476,7 @@ nav ul li {
 	position: relative;
 	cursor: pointer;
 	transition: 0.2s;
-}
+} */
 .content-1 {
 	padding: 20px 30px;
 	background-color: black;
@@ -465,8 +486,9 @@ nav ul li {
 }
 
 .text-box-1 {
-	margin-top: 50px;
-	width: 100%;
+	/* margin-top: 5px; */
+	margin: auto;
+	/* width: 100%; */
 	color: white;
 	/* position: relative;
 	top: 50%;
@@ -536,10 +558,11 @@ nav ul li {
 }
 
 body {
-	background-image: linear-gradient(to right, #04402c 0%, black 100%);
+	background-image: linear-gradient(0.33turn, #02121F, #015D58 10% 15%, #02121F, #018C63 90% 93%,#02121F);;
 	/* font-family: "Inter", sans-serif;
 	/* font-family: "Manrope", sans-serif; */
 	font-family: "Poppins", sans-serif;
+	background-attachment: fixed
 }
 /* laptop */
 .about-img {
@@ -566,6 +589,10 @@ body {
 }
 #about-head {
 	margin: 0 0 3rem 0;
+}
+.btn:hover{
+	color:white;
+	border: 1px solid white;
 }
 .btnn {
 	background-color: #39ff96;
