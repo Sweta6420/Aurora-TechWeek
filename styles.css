@@ -4,6 +4,11 @@
 	padding: 0;
 }
 
+/* html,body
+{
+	overflow-x: hidden;
+} */
+
 h1 {
 	text-align: center;
 	padding: 1rem;
@@ -55,6 +60,7 @@ p {
 	background-position: center;
 	background-size: cover;
 	position: relative;
+	/* display: flex; */
 }
 
 nav {
@@ -281,10 +287,10 @@ nav ul li {
 	left: -20%;
 }
 
-/* .left::after
+.left::after
 {
-	right: -16px;
-} */
+	right: -9px;
+}
 
 .right {
 	right: -20%;
@@ -306,6 +312,12 @@ nav ul li {
 }
 
 @media (max-width: 600px) {
+
+	/* body,html{
+		margin: 0;
+		padding: 0;
+		
+	} */
 	.timeline::after {
 		left: 31px;
 	}
@@ -373,6 +385,13 @@ nav ul li {
 	/* background-size: cover; */
 	position: relative;
 }
+
+.heading-2 {
+	font-weight: 500;
+	color: #fff;
+	font-size: 2rem;
+	filter: drop-shadow(0 0 0.8rem #34a186);
+}
 .time-line-events {
 	position: relative;
 	max-width: 75vw;
@@ -389,6 +408,13 @@ nav ul li {
 }
 
 @media (max-width: 600px) {
+	.about-img
+	{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		padding-left: 35px;
+	}
 	nav{
 		position: fixed;
 	}
@@ -450,7 +476,11 @@ nav ul li {
 
 .event-title{
 	margin:0;
+	font-family: Arial, Helvetica, sans-serif;
+	/* color: #B4D4EE;
+	filter: drop-shadow(0 0 0.8rem #34a186); */
 }
+
 /* .register-1 {
 	display: inline-block;
 	text-decoration: none;
@@ -496,9 +526,11 @@ nav ul li {
 	transform: translate(-50%, -50%); */
 	text-align: center;
 }
+
+
 .modal-window {
 	position: fixed;
-	background-color: rgba(27, 25, 25, 0.8);
+	background-color: rgba(88, 84, 84, 0.8);
 	top: 0;
 	right: 0;
 	bottom: 0;
@@ -523,15 +555,19 @@ nav ul li {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	padding: 2em;
-	background: white;
+	/* background: white; */
+	background: #ffffff ;
+	/* opacity: 20%; */
 }
+
 .modal-window header {
 	font-weight: bold;
+	
 }
 .modal-window h1 {
 	font-size: 150%;
 	margin: 0 0 15px;
-	color: black;
+	color: rgb(0, 0, 0);
 }
 
 .modal-close {
@@ -562,13 +598,25 @@ body {
 	/* font-family: "Inter", sans-serif;
 	/* font-family: "Manrope", sans-serif; */
 	font-family: "Poppins", sans-serif;
-	background-attachment: fixed
+	background-attachment: fixed;
+	
+	position: relative;
+	
+	
+}
+/* html,body{
+	overflow-x: hidden;
+} */
+
+.main{
+	overflow-x: hidden;
 }
 /* laptop */
 .about-img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+	padding-left: 35px;
 }
 
 .club-img {
