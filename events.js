@@ -18,3 +18,10 @@ for (let i = 0; i < openbtn.length; i++)
 
 closebtn.addEventListener("click", closeModal);
 overlay.addEventListener("click", closeModal);
+
+$(".close-modal, .overlay").click(function(e) {
+	e.preventDefault();
+	$(".modal, .overlay").fadeOut(500, function() {
+	  $(".overlay").remove();
+	});
+  });
