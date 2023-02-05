@@ -45,6 +45,14 @@ p {
 	filter: drop-shadow(0 0 0.8rem #34a186);
 }
 
+.dropdown-item:hover{
+	font-weight: 400;
+	transform: translateY(-5px);
+	filter: drop-shadow(0 0 0.1rem #34a186);
+	color: white;
+	background-color: rgb(0, 0, 0, 0);
+}
+
 /* home */
 .header {
 	min-height: 100vh;
@@ -186,12 +194,6 @@ nav ul li {
 	.partners-text{
 		max-width: 80% !important;
 	}
-}
-
-@media (max-width:700px){
-	.text-box h1 {
-		font-size: 75px !important;
-	}
 	.nav-links{
 		visibility: hidden;
 	}
@@ -201,6 +203,21 @@ nav ul li {
 		right: 0;
 		background-color: transparent !important;		
 	}
+	.dropdown-menu.show {
+		display: block;
+		background-color: rgba(0,0,0,0.8);
+	}
+	.dropdown-item{
+		color: white;
+	}
+}
+
+@media (max-width:700px){
+	.text-box h1 {
+		font-size: 75px !important;
+	}
+	
+	
 	nav{
 		padding-top: 0% !important;
 		position:relative;
@@ -211,13 +228,7 @@ nav ul li {
 	.heading{
 		font-size: 3.5rem;
 	}
-	.dropdown-menu.show {
-		display: block;
-		background-color: rgba(0,0,0,0.8);
-	}
-	.dropdown-item{
-		color: white;
-	}
+	
 	.partners-text{
 		max-width: 90% !important;
 	}
@@ -249,6 +260,21 @@ nav ul li {
 		right: 0;
 		background-color: transparent !important;		
 	}
+	.dropdown-menu.show {
+		display: block;
+		background-color: rgba(0,0,0,0.8);
+	}
+	.dropdown-item{
+		color: white;
+	}
+}
+
+@media (max-width:700px){
+	.text-box h1 {
+		font-size: 75px !important;
+	}
+	
+	
 	nav{
 		padding-top: 0% !important;
 		position:relative;
@@ -288,37 +314,6 @@ nav ul li {
 .container-fluid {
 	text-align: justify;
 	padding: 7rem 8rem;
-}
-
-.scale-up-center {
-	animation: scale-up-center 7s cubic-bezier(0.39, 0.575, 0.565, 1) infinite
-		both;
-}
-
-@keyframes scale-up-center {
-	0% {
-		transform: translate(0px, 0px) scale(1);
-	}
-	20% {
-		transform: translate(40px, -50px) scale(1.1);
-	}
-	50% {
-		transform: translate(-30px, 20px) scale(0.9);
-	}
-	80% {
-		transform: translate(45px, -45px) scale(1.4);
-	}
-	100% {
-		transform: translate(0px, 0px) scale(1);
-	}
-}
-
-.delay-2 {
-	animation-delay: 2s;
-}
-
-.delay-4 {
-	animation-delay: 4s;
 }
 
 /* timeline */
@@ -384,7 +379,7 @@ nav ul li {
 }
 
 #sponsor-head{
-	padding: 5% !important;
+	padding: 2% !important;
 }
 .content {
 	padding: 1rem 2rem;
@@ -394,7 +389,7 @@ nav ul li {
 	border-radius: 3rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 845px) {
 
 	/* body,html{
 		margin: 0;
@@ -445,6 +440,7 @@ nav ul li {
 .footer-txt {
 	text-align: center;
 	margin-bottom: 0;
+	margin-top: 2px;
 	padding: 0 5% 0 5% !important;
 }
 
