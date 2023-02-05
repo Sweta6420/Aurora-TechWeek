@@ -33,6 +33,14 @@ p {
 	text-align: center;
 }
 
+.know-more
+{
+	
+	color: rgb(0, 0, 0);
+	padding: 0.5rem;
+	text-align: center;
+	
+}
 .dark {
 	background-color: black;
 	color: rgb(255, 255, 255, 1);
@@ -435,7 +443,7 @@ nav ul li {
 	max-height: 5.5rem;
 	width: auto;
 	margin: 0.7rem;
-	border-radius: 50%;
+	
 }
 
 #image{
@@ -451,6 +459,7 @@ nav ul li {
 .footer-link {
 	text-decoration: none;
 }
+
 .footer-icon {
 	height: 3rem;
 	width: 3rem;
@@ -459,7 +468,19 @@ nav ul li {
 	padding: 0.3rem;
 }
 
+.footer-icon-1 {
+	height: 2.5rem;
+	width: 2.5rem;
+	fill: rgb(255, 255, 255);
+	margin: 0.5rem;
+	padding: 0.3rem;
+}
+
 .footer-icon:hover {
+	fill: #39ff96;
+}
+
+.footer-icon-1:hover {
 	fill: #39ff96;
 }
 
@@ -471,6 +492,7 @@ nav ul li {
 	/* background-size: cover; */
 	position: relative;
 }
+
 
 .heading-2 {
 	font-weight: 500;
@@ -664,6 +686,9 @@ nav ul li {
 	margin: 0 0 15px;
 	color: rgb(0, 0, 0);
 }
+
+
+
 
 .modal-close {
 	color: rgb(26, 21, 21);
