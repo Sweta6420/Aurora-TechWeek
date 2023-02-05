@@ -194,12 +194,6 @@ nav ul li {
 	.partners-text{
 		max-width: 80% !important;
 	}
-}
-
-@media (max-width:700px){
-	.text-box h1 {
-		font-size: 75px !important;
-	}
 	.nav-links{
 		visibility: hidden;
 	}
@@ -209,6 +203,21 @@ nav ul li {
 		right: 0;
 		background-color: transparent !important;		
 	}
+	.dropdown-menu.show {
+		display: block;
+		background-color: rgba(0,0,0,0.8);
+	}
+	.dropdown-item{
+		color: white;
+	}
+}
+
+@media (max-width:700px){
+	.text-box h1 {
+		font-size: 75px !important;
+	}
+	
+	
 	nav{
 		padding-top: 0% !important;
 		position:relative;
@@ -219,13 +228,7 @@ nav ul li {
 	.heading{
 		font-size: 3.5rem;
 	}
-	.dropdown-menu.show {
-		display: block;
-		background-color: rgba(0,0,0,0.8);
-	}
-	.dropdown-item{
-		color: white;
-	}
+	
 	.partners-text{
 		max-width: 90% !important;
 	}
