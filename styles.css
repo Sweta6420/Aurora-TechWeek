@@ -366,8 +366,12 @@ nav ul li {
 	max-height: 5.5rem;
 	width: auto;
 	margin: 0.7rem;
+	border-radius: 50%;
 }
 
+#image{
+	border-radius: 50%;
+}
 .footer-txt {
 	text-align: center;
 	margin-bottom: 0;
