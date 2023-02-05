@@ -221,8 +221,59 @@ nav ul li {
 	.partners-text{
 		max-width: 90% !important;
 	}
+	/* .about-text {
+		font-size: 1em !important;
+		line-height: 2rem;
+	} */
 }
 
+@media (max-width:800px){
+	.nav-links{
+		font-size: 13px;
+	}
+	.partners-text{
+		max-width: 80% !important;
+	}
+}
+
+@media (max-width:700px){
+	.text-box h1 {
+		font-size: 75px !important;
+	}
+	.nav-links{
+		visibility: hidden;
+	}
+	.dropdown{
+		visibility: visible !important;
+		position: absolute;
+		right: 0;
+		background-color: transparent !important;		
+	}
+	nav{
+		padding-top: 0% !important;
+		position:relative;
+	}
+	.about-container{
+		padding:5% !important;
+	}
+	.heading{
+		font-size: 3.5rem;
+	}
+	.dropdown-menu.show {
+		display: block;
+		background-color: rgba(0,0,0,0.8);
+	}
+	.dropdown-item{
+		color: white;
+	}
+	.partners-text{
+		max-width: 90% !important;
+	}
+	/* .about-text {
+		font-size: 1em !important;
+		line-height: 2rem;
+	} */
+}
 /* about */
 .about-text {
 	font-family: "Inter", sans-serif;
@@ -379,6 +430,9 @@ nav ul li {
 	.left {
 		left: 0%;
 	}
+	.about-text-div{
+		font-size: 1em;
+	}
 }
 
 /* footer */
@@ -465,7 +519,7 @@ nav ul li {
 		max-height: 100vh;
 	}
 	.text-box{	
-		padding: 40% 0 60% 0;
+		padding: 10% 0 60% 0;
 		max-height: 50vh !important;
 	}
 	.container {
@@ -679,12 +733,12 @@ body {
 #about-head {
 	margin: 0 0 3rem 0;
 }
-.btn{
+.btn-know{
 	border: 1px solid white;
 	transition: ease-out 0.3s;
 	box-shadow: inset 0 0 0 0 white;
 }
-.btn:hover{
+.btn-know:hover{
 	color:black;
 	background-color: white;
 	border: 1px solid white;
