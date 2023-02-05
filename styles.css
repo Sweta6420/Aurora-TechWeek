@@ -41,6 +41,7 @@ p {
 	text-align: center;
 	
 }
+
 .dark {
 	background-color: black;
 	color: rgb(255, 255, 255, 1);
@@ -773,6 +774,7 @@ body {
 #about-head {
 	margin: 0 0 3rem 0;
 }
+
 .btn-know{
 	border: 1px solid white;
 	transition: ease-out 0.3s;
