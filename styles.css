@@ -313,7 +313,7 @@ nav ul li {
 }
 
 #sponsor-head{
-	padding: 5% !important;
+	padding: 2% !important;
 }
 .content {
 	padding: 1rem 2rem;
@@ -371,6 +371,7 @@ nav ul li {
 .footer-txt {
 	text-align: center;
 	margin-bottom: 0;
+	margin-top: 2px;
 	padding: 0 5% 0 5% !important;
 }
 
