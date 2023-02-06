@@ -620,6 +620,7 @@ nav ul li {
 	border: 10px solid transparent;
 	border-top: 1px solid #00a35a;
 	box-sizing: border-box;
+	padding: 3%;
 	/* background-color: rgba(0, 0, 0, 0.1); */
 	/* border-radius: 5%; */
 }
