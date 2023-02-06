@@ -596,6 +596,8 @@ nav ul li {
 	border: 10px solid transparent;
 	border-top: 1px solid #00a35a;
 	box-sizing: border-box;
+	margin: 1.5rem 0rem;
+	padding-top: 1rem;
 	/* background-color: rgba(0, 0, 0, 0.1); */
 	/* border-radius: 5%; */
 }
@@ -779,6 +781,7 @@ body {
 	border: 1px solid white;
 	transition: ease-out 0.3s;
 	box-shadow: inset 0 0 0 0 white;
+	margin-top: 1.3rem;
 }
 .btn-know:hover{
 	color:black;
